@@ -1,9 +1,9 @@
 // webpack.config.js
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './browser/app.js',
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/browser',
     filename: 'bundle.js',
   },
   devtool: 'eval-source-map',
