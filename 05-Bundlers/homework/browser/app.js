@@ -1,5 +1,5 @@
 const whiteboard = require("./whiteboard");
-const io = require("socket.io-client")
+const io = require("socket.io-client");
   var socket = io(window.location.origin);
 
   socket.on("connect", function () {

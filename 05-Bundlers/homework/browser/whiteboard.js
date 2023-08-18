@@ -1,5 +1,5 @@
 
-const EventEmitter = require('./event-emitter')
+const EventEmitter = require("./event-emitter")
 
   const whiteboard = new EventEmitter();
 

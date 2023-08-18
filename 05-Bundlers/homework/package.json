@@ -10,10 +10,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.0.1",
-    "socket.io-client": "^4.0.1",
-    "webpack": "^5.88.2"
+    "socket.io-client": "^4.0.1"
   },
   "devDependencies": {
+    "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
 }
