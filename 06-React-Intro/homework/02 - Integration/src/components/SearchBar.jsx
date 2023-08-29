@@ -1,11 +1,12 @@
- function SearchBar({onsearch}) {
-   return (
+function SearchBar({onSearch}){
+   return(
       <div>
-         
-         <input type='search' />
-         <button onClick = {onsearch}>Agregar</button>
+         <input type="search"/>
+         <button onClick={onSearch}>Agregar</button>
       </div>
    );
 }
+
+
 
 export default SearchBar;
